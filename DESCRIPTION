@@ -1,0 +1,13 @@
+Package: THMisc
+Type: Package
+Title: Collection of miscellaneous R functions
+Version: 1.0
+Date: 2013-10-14
+Author: Tyler Hunt
+Maintainer: Tyler Hunt <tyler.hunt@utah.edu>
+Description: All sorts of stuff
+License: MIT
+Imports:
+    RODBC
+Collate:
+    'infsql.R'
