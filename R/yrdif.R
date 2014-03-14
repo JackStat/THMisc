@@ -1,10 +1,11 @@
+#' Calculate difference between 2 dates in years.
 #' 
 #' @description Calculated the difference in years between two dates.  The function calulates the number of days that fall in 365-day years and divides that by 365.  Then adds the number of days that fall in 366-day years and divides that by 366.
 #'
 #'
 #' @param startdate The first date
 #' @param stopdate The second date
-#' @param type The 
+#' @param type TTTTTTT 
 #' 
 #' @import lubridate
 #' 

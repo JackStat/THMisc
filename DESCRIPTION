@@ -11,3 +11,5 @@ Imports:
     RODBC
 Collate:
     'infsql.R'
+    'coalesce.R'
+    'yrdif.R'

@@ -2,7 +2,7 @@
 \alias{infsql}
 \title{Informative SQL via RODBC}
 \usage{
-  infsql(channel, query)
+  infsql(channel, query, UniqueID = 1, include.time = TRUE)
 }
 \arguments{
   \item{channel}{The ODBC channel}
