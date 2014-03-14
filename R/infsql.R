@@ -10,19 +10,23 @@
 
 
 
-infsql<-function(channel, query){
+infsql<-function(channel, query, UniqueID=1, include.time=TRUE){
   
+  if(include.time==TRUE){
+    cat("SQL via RODBC used (Total process time): \n")
+    print(system.time(Q<-sqlQuery(channel, query)))
+  }
   
-  cat("SQL via RODBC used (Total process time): \n")
-  print(system.time(Q<-sqlQuery(channel, query)))
-  
-  
+  else Q<-sqlQuery(channel, query)
+    
   cat(paste("\n Table created from SQL, with", 
+            length(unique(Q[,UniqueID])),
+            "unique IDs",
             nrow(Q), 
             "rows and", 
             ncol(Q), 
-            "columns"))
-  
+            "columns"
+            ))
   
   Q
 }
