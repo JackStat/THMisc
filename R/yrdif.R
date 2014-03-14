@@ -7,6 +7,9 @@
 #' @param stopdate The second date
 #' @param type TTTTTTT 
 #' 
+#' @examples
+#' yrdif(as.Date('1998-02-03'), as.Date('2003-05-06'))
+#' 
 #' @import lubridate
 #' 
 
