@@ -4,6 +4,7 @@
 #'
 #' @examples 
 #' coalesce(c(NA,2,NA), c(1, NA, NA), c(NA, NA, 3))
+#' @export
 
 
 

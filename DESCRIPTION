@@ -8,8 +8,7 @@ Maintainer: Tyler Hunt <tyler.hunt@utah.edu>
 Description: All sorts of stuff
 License: MIT
 Imports:
-    RODBC
-Collate:
-    'infsql.R'
-    'coalesce.R'
-    'yrdif.R'
+    RODBC,
+    lubridate,
+    chron,
+    foreign
