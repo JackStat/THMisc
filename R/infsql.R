@@ -7,7 +7,7 @@
 #' @param query The SQL query
 #' 
 #' @import RODBC
-
+#' @export
 
 
 infsql<-function(channel, query, UniqueID=1, include.time=TRUE){

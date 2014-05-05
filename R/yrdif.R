@@ -11,7 +11,7 @@
 #' yrdif(as.Date('1998-02-03'), as.Date('2003-05-06'))
 #' 
 #' @import lubridate
-#' 
+#' @export
 
 yrdif<-function(startdate, stopdate, type='actual'){
   
